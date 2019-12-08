@@ -26,11 +26,11 @@ path,
 quantile)
                 VALUES(%s, %s, %s, %s, %s, %s,%s, %s, %s, %s, %s, %s,%s, %s, %s, %s, %s, %s,%s, %s, %s, %s)"""
 try:
-    conn = pg.connect(user="postgres",
-        password="pGv0NurK42Ag36Bt",
-        host="35.188.186.4",
+    conn = pg.connect(user="",
+        password="",
+        host="",
         port="5432",
-        database="postgres")
+        database="")
     cursor = conn.cursor()
     with open(file, 'r') as f:
         reader = csv.reader(f)
